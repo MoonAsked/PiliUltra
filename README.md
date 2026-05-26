@@ -5,14 +5,14 @@
 
 
 <div align="center">
-    <h1>PiliPlus</h1>
+    <h1>PiliUltra</h1>
 <div align="center">
     
-![GitHub repo size](https://img.shields.io/github/repo-size/bggRGjQaUbCoE/PiliPlus) 
-![GitHub Repo stars](https://img.shields.io/github/stars/bggRGjQaUbCoE/PiliPlus) 
-![GitHub all releases](https://img.shields.io/github/downloads/bggRGjQaUbCoE/PiliPlus/total) 
+![GitHub repo size](https://img.shields.io/github/repo-size/MoonAsked/PiliUltra) 
+![GitHub Repo stars](https://img.shields.io/github/stars/MoonAsked/PiliUltra) 
+![GitHub all releases](https://img.shields.io/github/downloads/MoonAsked/PiliUltra/total) 
 </div>
-    <p>使用Flutter开发的BiliBili第三方客户端</p>
+    <p>基于 Flutter 开发的 BiliBili 增强版第三方客户端，集成 BiliRoamingX 区域解锁能力</p>
     
 <img src="assets/screenshots/510shots_so.png" width="32%" alt="home" />
 <img src="assets/screenshots/174shots_so.png" width="32%" alt="home" />
@@ -33,7 +33,7 @@
 - [x] Windows
 - [x] Linux
 
-[![Packaging status](https://repology.org/badge/vertical-allrepos/piliplus.svg)](https://repology.org/project/piliplus/versions)
+[![Packaging status](https://repology.org/badge/vertical-allrepos/piliultra.svg)](https://repology.org/project/piliultra/versions)
 
 ## refactor
 
@@ -211,6 +211,41 @@
 
 <br/>
 
+## 区域解锁（BiliRoamingX 能力集成）
+
+PiliUltra 在 PiliPlus 基础上集成 BiliRoamingX 区域解锁能力，旨在突破 Bilibili PGC（番剧/影视）内容的地域限制。
+
+### 核心能力
+
+| 能力 | 状态 | 说明 |
+| --- | --- | --- |
+| PGC 播放代理 fallback | 计划中 | 官方播放请求失败后，自动尝试通过代理服务器获取播放地址 |
+| 多区域代理服务器配置 | 计划中 | 支持配置多个区域代理服务器，按优先级自动选择 |
+| 泰区响应标准化 | 计划中 | 将泰区 API 响应转换为标准 DASH/PlayUrlModel 格式 |
+| CDN/PCDN 优化 | 计划中 | 播放 URL 中 CDN/UPOS/PCDN 地址选择与优化 |
+
+### 当前实施阶段
+
+**第一阶段：PGC 播放失败后的代理 fallback 最小闭环**
+
+> 其他能力（season fallback、字幕、搜索等）将在后续阶段逐步推进。
+
+### 功能说明
+
+- **默认关闭**：区域解锁功能默认不启用，需用户在设置中手动开启
+- **用户配置代理**：代理服务器地址由用户自行配置，不内置任何公共代理服务器
+- **技术方案**：采用显式 fallback 服务层为主、Dio Interceptor 为辅的混合架构
+
+### 不适用能力说明
+
+以下 BiliRoamingX 能力依赖于 Xposed/ReVanced 宿主环境，不适用于 Flutter 独立客户端：
+
+- Xposed Hook（无官方 App 进程可 Hook）
+- ReVanced Patch（非官方 APK 字节码结构）
+- VIP 状态伪造（合规风险高）
+
+<br/>
+
 ## 下载
 
 可以通过右侧release进行下载或拉取代码到本地进行编译
@@ -219,11 +254,22 @@
 
 ## 声明
 
-此项目（PiliPlus）是个人为了兴趣而开发，仅用于学习和测试，请于下载后24小时内删除。
+此项目（PiliUltra）是个人为了兴趣而开发，仅用于学习和测试，请于下载后24小时内删除。
 所用API皆从官方网站收集，不提供任何破解内容。
 在此致敬原作者：[guozhigq/pilipala](https://github.com/guozhigq/pilipala)
 在此致敬上游作者：[orz12/PiliPalaX](https://github.com/orz12/PiliPalaX)
 本仓库做了更激进的修改，感谢原作者的开源精神。
+
+### 区域解锁免责声明
+
+- 区域解锁功能**默认关闭**，需要用户手动启用并自行配置代理服务器
+- 使用区域解锁功能绕过地域限制**可能违反 Bilibili 服务条款**，用户需自行承担相关风险
+- 本项目不提供、不内置任何代理服务器，不对代理服务器的安全性和可用性负责
+- 请遵守当地法律法规，合理使用本功能
+
+### 许可证
+
+本项目采用 [GPL-3.0](LICENSE) 许可证，与 BiliRoaming、BiliRoamingX、PiliPlus 保持一致。
 
 感谢使用
 
@@ -236,6 +282,8 @@
 - [flutter_meedu_videoplayer](https://github.com/zezo357/flutter_meedu_videoplayer)
 - [media-kit](https://github.com/media-kit/media-kit)
 - [dio](https://pub.dev/packages/dio)
+- [BiliRoaming](https://github.com/yujincheng30/BiliRoaming)
+- [BiliRoamingX](https://github.com/BiliRoamingX/BiliRoamingX)
 - 等等
 
 <br/>
@@ -244,10 +292,10 @@
 
 ## Star History
 
-<a href="https://www.star-history.com/#bggRGjQaUbCoE/PiliPlus&Date">
+<a href="https://www.star-history.com/#MoonAsked/PiliUltra&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=bggRGjQaUbCoE/PiliPlus&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=bggRGjQaUbCoE/PiliPlus&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=bggRGjQaUbCoE/PiliPlus&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=MoonAsked/PiliUltra&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=MoonAsked/PiliUltra&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=MoonAsked/PiliUltra&type=Date" />
  </picture>
 </a>

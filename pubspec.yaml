@@ -1,5 +1,5 @@
-name: PiliPlus
-description: A new Flutter project.
+name: PiliUltra
+description: 基于 Flutter 开发的 BiliBili 增强版第三方客户端，集成 BiliRoamingX 区域解锁能力。
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
