@@ -4,9 +4,33 @@ import 'package:PiliPlus/services/region_unlock/area_cache.dart';
 import 'package:PiliPlus/services/region_unlock/region_unlock_config.dart';
 import 'package:PiliPlus/services/region_unlock/sensitive_mask.dart';
 import 'package:PiliPlus/services/region_unlock/server_manager.dart';
-import 'package:PiliPlus/pages/setting/widgets/switch_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
+
+class SwitchItem extends StatelessWidget {
+  final String title;
+  final String? subtitle;
+  final bool value;
+  final ValueChanged<bool> onChanged;
+
+  const SwitchItem({
+    super.key,
+    required this.title,
+    this.subtitle,
+    required this.value,
+    required this.onChanged,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return SwitchListTile(
+      title: Text(title),
+      subtitle: subtitle != null ? Text(subtitle!) : null,
+      value: value,
+      onChanged: onChanged,
+    );
+  }
+}
 
 class RegionUnlockSetting extends StatefulWidget {
   const RegionUnlockSetting({super.key, this.showAppBar = true});

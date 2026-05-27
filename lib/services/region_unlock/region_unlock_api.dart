@@ -43,13 +43,14 @@ abstract final class RegionUnlockApi {
     AppSign.appSign(params, appkey: area.appKey, appsec: area.appSec);
 
     // 4. 构建完整URL
-    final uri = Uri.parse('$serverUrl${area.playUrlPath}');
+    final uri = Uri.parse('$serverUrl${area.playUrlPath}').replace(
+      queryParameters: params.map((k, v) => MapEntry(k, v.toString())),
+    );
 
     // 5. 发送请求（独立Dio实例）
     final timeout = RegionUnlockConfig.instance.proxyTimeout;
     final response = await _proxyDio.getUri(
       uri,
-      queryParameters: params.map((k, v) => MapEntry(k, v.toString())),
       options: Options(
         responseType: ResponseType.plain,
         receiveTimeout: timeout,
@@ -85,11 +86,12 @@ abstract final class RegionUnlockApi {
 
     AppSign.appSign(params, appkey: area.appKey, appsec: area.appSec);
 
-    final uri = Uri.parse('$serverUrl${area.seasonPath}');
+    final uri = Uri.parse('$serverUrl${area.seasonPath}').replace(
+      queryParameters: params.map((k, v) => MapEntry(k, v.toString())),
+    );
     final timeout = RegionUnlockConfig.instance.proxyTimeout;
     final response = await _proxyDio.getUri(
       uri,
-      queryParameters: params.map((k, v) => MapEntry(k, v.toString())),
       options: Options(
         responseType: ResponseType.plain,
         receiveTimeout: timeout,
@@ -114,12 +116,13 @@ abstract final class RegionUnlockApi {
     };
     AppSign.appSign(params, appkey: area.appKey, appsec: area.appSec);
 
-    final uri = Uri.parse('$serverUrl${area.seasonPath}');
+    final uri = Uri.parse('$serverUrl${area.seasonPath}').replace(
+      queryParameters: params.map((k, v) => MapEntry(k, v.toString())),
+    );
     final stopwatch = Stopwatch()..start();
     try {
       await _proxyDio.getUri(
         uri,
-        queryParameters: params.map((k, v) => MapEntry(k, v.toString())),
         options: Options(
           responseType: ResponseType.plain,
           receiveTimeout: const Duration(seconds: 5),

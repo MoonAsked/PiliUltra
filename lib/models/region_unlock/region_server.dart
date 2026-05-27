@@ -21,7 +21,7 @@ class RegionServer {
   });
 
   /// 服务器指纹，用于缓存key隔离
-  String get fingerprint => '$name:${baseUrl.hashCode}';
+  String get fingerprint => '${area.name}:${baseUrl.hashCode}';
 
   /// 序列化为JSON
   Map<String, dynamic> toJson() => {
