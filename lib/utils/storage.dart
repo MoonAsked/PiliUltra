@@ -1,17 +1,17 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:PiliPlus/models/model_owner.dart';
-import 'package:PiliPlus/models/user/danmaku_rule_adapter.dart';
-import 'package:PiliPlus/models/user/info.dart';
-import 'package:PiliPlus/utils/accounts.dart';
-import 'package:PiliPlus/utils/accounts/account_adapter.dart';
-import 'package:PiliPlus/utils/accounts/account_type_adapter.dart';
-import 'package:PiliPlus/utils/accounts/cookie_jar_adapter.dart';
-import 'package:PiliPlus/utils/path_utils.dart';
-import 'package:PiliPlus/utils/set_int_adapter.dart';
-import 'package:PiliPlus/utils/storage_pref.dart';
-import 'package:PiliPlus/utils/utils.dart';
+import 'package:PiliUltra/models/model_owner.dart';
+import 'package:PiliUltra/models/user/danmaku_rule_adapter.dart';
+import 'package:PiliUltra/models/user/info.dart';
+import 'package:PiliUltra/utils/accounts.dart';
+import 'package:PiliUltra/utils/accounts/account_adapter.dart';
+import 'package:PiliUltra/utils/accounts/account_type_adapter.dart';
+import 'package:PiliUltra/utils/accounts/cookie_jar_adapter.dart';
+import 'package:PiliUltra/utils/path_utils.dart';
+import 'package:PiliUltra/utils/set_int_adapter.dart';
+import 'package:PiliUltra/utils/storage_pref.dart';
+import 'package:PiliUltra/utils/utils.dart';
 import 'package:hive_ce/hive.dart';
 import 'package:path/path.dart' as path;
 

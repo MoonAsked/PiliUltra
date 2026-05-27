@@ -1,10 +1,10 @@
-import 'package:PiliPlus/common/widgets/image/image_save.dart';
-import 'package:PiliPlus/models/dynamics/result.dart';
-import 'package:PiliPlus/pages/dynamics/widgets/dyn_content.dart';
-import 'package:PiliPlus/pages/dynamics/widgets/module_panel.dart';
-import 'package:PiliPlus/utils/date_utils.dart';
-import 'package:PiliPlus/utils/page_utils.dart';
-import 'package:PiliPlus/utils/platform_utils.dart';
+import 'package:PiliUltra/common/widgets/image/image_save.dart';
+import 'package:PiliUltra/models/dynamics/result.dart';
+import 'package:PiliUltra/pages/dynamics/widgets/dyn_content.dart';
+import 'package:PiliUltra/pages/dynamics/widgets/module_panel.dart';
+import 'package:PiliUltra/utils/date_utils.dart';
+import 'package:PiliUltra/utils/page_utils.dart';
+import 'package:PiliUltra/utils/platform_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

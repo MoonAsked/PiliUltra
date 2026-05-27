@@ -1,4 +1,4 @@
-import 'package:PiliPlus/models_new/video/video_stein_edgeinfo/edges.dart';
+import 'package:PiliUltra/models_new/video/video_stein_edgeinfo/edges.dart';
 
 class EdgeInfoData {
   Edges? edges;

@@ -1,20 +1,20 @@
-import 'package:PiliPlus/common/constants.dart';
-import 'package:PiliPlus/http/api.dart';
-import 'package:PiliPlus/http/init.dart';
-import 'package:PiliPlus/http/loading_state.dart';
-import 'package:PiliPlus/models/common/fav_order_type.dart';
-import 'package:PiliPlus/models_new/fav/fav_article/data.dart';
-import 'package:PiliPlus/models_new/fav/fav_detail/data.dart';
-import 'package:PiliPlus/models_new/fav/fav_folder/data.dart';
-import 'package:PiliPlus/models_new/fav/fav_folder/list.dart';
-import 'package:PiliPlus/models_new/fav/fav_note/list.dart';
-import 'package:PiliPlus/models_new/fav/fav_pgc/data.dart';
-import 'package:PiliPlus/models_new/fav/fav_topic/data.dart';
-import 'package:PiliPlus/models_new/space/space_cheese/data.dart';
-import 'package:PiliPlus/models_new/space/space_fav/data.dart';
-import 'package:PiliPlus/models_new/sub/sub_detail/data.dart';
-import 'package:PiliPlus/utils/accounts.dart';
-import 'package:PiliPlus/utils/app_sign.dart';
+import 'package:PiliUltra/common/constants.dart';
+import 'package:PiliUltra/http/api.dart';
+import 'package:PiliUltra/http/init.dart';
+import 'package:PiliUltra/http/loading_state.dart';
+import 'package:PiliUltra/models/common/fav_order_type.dart';
+import 'package:PiliUltra/models_new/fav/fav_article/data.dart';
+import 'package:PiliUltra/models_new/fav/fav_detail/data.dart';
+import 'package:PiliUltra/models_new/fav/fav_folder/data.dart';
+import 'package:PiliUltra/models_new/fav/fav_folder/list.dart';
+import 'package:PiliUltra/models_new/fav/fav_note/list.dart';
+import 'package:PiliUltra/models_new/fav/fav_pgc/data.dart';
+import 'package:PiliUltra/models_new/fav/fav_topic/data.dart';
+import 'package:PiliUltra/models_new/space/space_cheese/data.dart';
+import 'package:PiliUltra/models_new/space/space_fav/data.dart';
+import 'package:PiliUltra/models_new/sub/sub_detail/data.dart';
+import 'package:PiliUltra/utils/accounts.dart';
+import 'package:PiliUltra/utils/app_sign.dart';
 import 'package:dio/dio.dart';
 
 abstract final class FavHttp {

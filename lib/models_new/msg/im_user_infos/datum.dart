@@ -1,4 +1,4 @@
-import 'package:PiliPlus/models/model_avatar.dart';
+import 'package:PiliUltra/models/model_avatar.dart';
 
 class ImUserInfosData {
   int? mid;

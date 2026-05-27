@@ -1,8 +1,8 @@
-import 'package:PiliPlus/models/region_unlock/region_area.dart';
-import 'package:PiliPlus/models/region_unlock/region_playurl_context.dart';
-import 'package:PiliPlus/models/region_unlock/region_server.dart';
-import 'package:PiliPlus/services/region_unlock/area_cache.dart';
-import 'package:PiliPlus/services/region_unlock/region_unlock_config.dart';
+import 'package:PiliUltra/models/region_unlock/region_area.dart';
+import 'package:PiliUltra/models/region_unlock/region_playurl_context.dart';
+import 'package:PiliUltra/models/region_unlock/region_server.dart';
+import 'package:PiliUltra/services/region_unlock/area_cache.dart';
+import 'package:PiliUltra/services/region_unlock/region_unlock_config.dart';
 
 /// 区域服务器管理
 /// 负责读取配置、按优先级排序、关键词匹配提升、健康状态管理

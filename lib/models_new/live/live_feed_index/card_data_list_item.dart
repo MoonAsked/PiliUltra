@@ -1,5 +1,5 @@
-import 'package:PiliPlus/models_new/live/live_feed_index/watched_show.dart';
-import 'package:PiliPlus/utils/parse_string.dart';
+import 'package:PiliUltra/models_new/live/live_feed_index/watched_show.dart';
+import 'package:PiliUltra/utils/parse_string.dart';
 
 class CardLiveItem {
   int? roomid;

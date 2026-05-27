@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:PiliPlus/models/region_unlock/region_area.dart';
-import 'package:PiliPlus/models/region_unlock/region_server.dart';
-import 'package:PiliPlus/utils/storage.dart';
+import 'package:PiliUltra/models/region_unlock/region_area.dart';
+import 'package:PiliUltra/models/region_unlock/region_server.dart';
+import 'package:PiliUltra/utils/storage.dart';
 import 'package:encrypt/encrypt.dart';
 
 /// 区域解锁配置管理

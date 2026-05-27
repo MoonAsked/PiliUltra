@@ -1,10 +1,10 @@
 // 内容
-import 'package:PiliPlus/common/widgets/custom_icon.dart';
-import 'package:PiliPlus/common/widgets/flutter/text/text.dart' as custom_text;
-import 'package:PiliPlus/common/widgets/image_grid/image_grid_view.dart';
-import 'package:PiliPlus/models/dynamics/result.dart';
-import 'package:PiliPlus/pages/dynamics/widgets/rich_node_panel.dart';
-import 'package:PiliPlus/utils/page_utils.dart';
+import 'package:PiliUltra/common/widgets/custom_icon.dart';
+import 'package:PiliUltra/common/widgets/flutter/text/text.dart' as custom_text;
+import 'package:PiliUltra/common/widgets/image_grid/image_grid_view.dart';
+import 'package:PiliUltra/models/dynamics/result.dart';
+import 'package:PiliUltra/pages/dynamics/widgets/rich_node_panel.dart';
+import 'package:PiliUltra/utils/page_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

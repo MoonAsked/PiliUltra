@@ -1,27 +1,27 @@
 import 'dart:io';
 
-import 'package:PiliPlus/common/widgets/button/icon_button.dart';
-import 'package:PiliPlus/common/widgets/button/toolbar_icon_button.dart';
-import 'package:PiliPlus/common/widgets/flutter/text_field/controller.dart';
-import 'package:PiliPlus/common/widgets/flutter/text_field/text_field.dart';
-import 'package:PiliPlus/http/msg.dart';
-import 'package:PiliPlus/models/common/image_preview_type.dart';
-import 'package:PiliPlus/models/common/publish_panel_type.dart';
-import 'package:PiliPlus/models/dynamics/result.dart'
+import 'package:PiliUltra/common/widgets/button/icon_button.dart';
+import 'package:PiliUltra/common/widgets/button/toolbar_icon_button.dart';
+import 'package:PiliUltra/common/widgets/flutter/text_field/controller.dart';
+import 'package:PiliUltra/common/widgets/flutter/text_field/text_field.dart';
+import 'package:PiliUltra/http/msg.dart';
+import 'package:PiliUltra/models/common/image_preview_type.dart';
+import 'package:PiliUltra/models/common/publish_panel_type.dart';
+import 'package:PiliUltra/models/dynamics/result.dart'
     show PicModel, FilePicModel, OpusPicModel;
-import 'package:PiliPlus/models_new/dynamic/dyn_mention/item.dart';
-import 'package:PiliPlus/models_new/emote/emote.dart' as e;
-import 'package:PiliPlus/models_new/live/live_emote/emoticon.dart';
-import 'package:PiliPlus/pages/common/publish/common_publish_page.dart';
-import 'package:PiliPlus/pages/dynamics_mention/view.dart';
-import 'package:PiliPlus/utils/extension/file_ext.dart';
-import 'package:PiliPlus/utils/extension/num_ext.dart';
-import 'package:PiliPlus/utils/extension/string_ext.dart';
-import 'package:PiliPlus/utils/extension/theme_ext.dart';
-import 'package:PiliPlus/utils/feed_back.dart';
-import 'package:PiliPlus/utils/image_utils.dart';
-import 'package:PiliPlus/utils/page_utils.dart';
-import 'package:PiliPlus/utils/platform_utils.dart';
+import 'package:PiliUltra/models_new/dynamic/dyn_mention/item.dart';
+import 'package:PiliUltra/models_new/emote/emote.dart' as e;
+import 'package:PiliUltra/models_new/live/live_emote/emoticon.dart';
+import 'package:PiliUltra/pages/common/publish/common_publish_page.dart';
+import 'package:PiliUltra/pages/dynamics_mention/view.dart';
+import 'package:PiliUltra/utils/extension/file_ext.dart';
+import 'package:PiliUltra/utils/extension/num_ext.dart';
+import 'package:PiliUltra/utils/extension/string_ext.dart';
+import 'package:PiliUltra/utils/extension/theme_ext.dart';
+import 'package:PiliUltra/utils/feed_back.dart';
+import 'package:PiliUltra/utils/image_utils.dart';
+import 'package:PiliUltra/utils/page_utils.dart';
+import 'package:PiliUltra/utils/platform_utils.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:dio/dio.dart' show CancelToken;
 import 'package:easy_debounce/easy_throttle.dart';

@@ -1,7 +1,7 @@
-import 'package:PiliPlus/http/loading_state.dart';
-import 'package:PiliPlus/http/member.dart';
-import 'package:PiliPlus/models/member/tags.dart';
-import 'package:PiliPlus/utils/accounts.dart';
+import 'package:PiliUltra/http/loading_state.dart';
+import 'package:PiliUltra/http/member.dart';
+import 'package:PiliUltra/models/member/tags.dart';
+import 'package:PiliUltra/utils/accounts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:get/get.dart';

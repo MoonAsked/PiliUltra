@@ -2,31 +2,31 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:math' show max;
 
-import 'package:PiliPlus/common/widgets/button/toolbar_icon_button.dart';
-import 'package:PiliPlus/common/widgets/custom_icon.dart';
-import 'package:PiliPlus/common/widgets/flutter/text_field/controller.dart'
+import 'package:PiliUltra/common/widgets/button/toolbar_icon_button.dart';
+import 'package:PiliUltra/common/widgets/custom_icon.dart';
+import 'package:PiliUltra/common/widgets/flutter/text_field/controller.dart'
     show RichTextType;
-import 'package:PiliPlus/common/widgets/flutter/text_field/text_field.dart';
-import 'package:PiliPlus/common/widgets/view_safe_area.dart';
-import 'package:PiliPlus/grpc/bilibili/main/community/reply/v1.pb.dart'
+import 'package:PiliUltra/common/widgets/flutter/text_field/text_field.dart';
+import 'package:PiliUltra/common/widgets/view_safe_area.dart';
+import 'package:PiliUltra/grpc/bilibili/main/community/reply/v1.pb.dart'
     show ReplyInfo;
-import 'package:PiliPlus/http/loading_state.dart';
-import 'package:PiliPlus/http/video.dart';
-import 'package:PiliPlus/models/common/publish_panel_type.dart';
-import 'package:PiliPlus/models/dynamics/result.dart' show FilePicModel;
-import 'package:PiliPlus/pages/common/publish/common_rich_text_pub_page.dart';
-import 'package:PiliPlus/pages/dynamics_mention/controller.dart';
-import 'package:PiliPlus/pages/emote/controller.dart';
-import 'package:PiliPlus/pages/emote/view.dart';
-import 'package:PiliPlus/pages/video/controller.dart';
-import 'package:PiliPlus/pages/video/reply_search_item/view.dart';
-import 'package:PiliPlus/utils/duration_utils.dart';
-import 'package:PiliPlus/utils/extension/context_ext.dart';
-import 'package:PiliPlus/utils/grid.dart';
-import 'package:PiliPlus/utils/path_utils.dart';
-import 'package:PiliPlus/utils/storage_pref.dart';
-import 'package:PiliPlus/utils/theme_utils.dart';
-import 'package:PiliPlus/utils/utils.dart';
+import 'package:PiliUltra/http/loading_state.dart';
+import 'package:PiliUltra/http/video.dart';
+import 'package:PiliUltra/models/common/publish_panel_type.dart';
+import 'package:PiliUltra/models/dynamics/result.dart' show FilePicModel;
+import 'package:PiliUltra/pages/common/publish/common_rich_text_pub_page.dart';
+import 'package:PiliUltra/pages/dynamics_mention/controller.dart';
+import 'package:PiliUltra/pages/emote/controller.dart';
+import 'package:PiliUltra/pages/emote/view.dart';
+import 'package:PiliUltra/pages/video/controller.dart';
+import 'package:PiliUltra/pages/video/reply_search_item/view.dart';
+import 'package:PiliUltra/utils/duration_utils.dart';
+import 'package:PiliUltra/utils/extension/context_ext.dart';
+import 'package:PiliUltra/utils/grid.dart';
+import 'package:PiliUltra/utils/path_utils.dart';
+import 'package:PiliUltra/utils/storage_pref.dart';
+import 'package:PiliUltra/utils/theme_utils.dart';
+import 'package:PiliUltra/utils/utils.dart';
 import 'package:flutter/material.dart' hide TextField;
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:get/get.dart';

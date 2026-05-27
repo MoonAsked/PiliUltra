@@ -1,4 +1,4 @@
-import 'package:PiliPlus/common/constants.dart';
+import 'package:PiliUltra/common/constants.dart';
 
 /// 区域类型枚举
 /// 每个区域携带对应的API路径、签名参数和客户端标识

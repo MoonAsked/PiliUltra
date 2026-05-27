@@ -1,15 +1,15 @@
 import 'dart:async' show StreamSubscription;
 
-import 'package:PiliPlus/http/loading_state.dart';
-import 'package:PiliPlus/http/search.dart';
-import 'package:PiliPlus/models/common/search/article_search_type.dart';
-import 'package:PiliPlus/models/common/search/search_type.dart';
-import 'package:PiliPlus/models/common/search/user_search_type.dart';
-import 'package:PiliPlus/models/common/search/video_search_type.dart';
-import 'package:PiliPlus/models/search/result.dart';
-import 'package:PiliPlus/pages/common/common_list_controller.dart';
-import 'package:PiliPlus/pages/search_result/controller.dart';
-import 'package:PiliPlus/utils/extension/scroll_controller_ext.dart';
+import 'package:PiliUltra/http/loading_state.dart';
+import 'package:PiliUltra/http/search.dart';
+import 'package:PiliUltra/models/common/search/article_search_type.dart';
+import 'package:PiliUltra/models/common/search/search_type.dart';
+import 'package:PiliUltra/models/common/search/user_search_type.dart';
+import 'package:PiliUltra/models/common/search/video_search_type.dart';
+import 'package:PiliUltra/models/search/result.dart';
+import 'package:PiliUltra/pages/common/common_list_controller.dart';
+import 'package:PiliUltra/pages/search_result/controller.dart';
+import 'package:PiliUltra/utils/extension/scroll_controller_ext.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:get/get.dart';
 

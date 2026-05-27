@@ -1,14 +1,14 @@
-import 'package:PiliPlus/models_new/pgc/pgc_info_model/area.dart';
-import 'package:PiliPlus/models_new/pgc/pgc_info_model/brief.dart';
-import 'package:PiliPlus/models_new/pgc/pgc_info_model/cooperator.dart';
-import 'package:PiliPlus/models_new/pgc/pgc_info_model/episode.dart';
-import 'package:PiliPlus/models_new/pgc/pgc_info_model/new_ep.dart';
-import 'package:PiliPlus/models_new/pgc/pgc_info_model/publish.dart';
-import 'package:PiliPlus/models_new/pgc/pgc_info_model/rating.dart';
-import 'package:PiliPlus/models_new/pgc/pgc_info_model/section.dart';
-import 'package:PiliPlus/models_new/pgc/pgc_info_model/stat.dart';
-import 'package:PiliPlus/models_new/pgc/pgc_info_model/up_info.dart';
-import 'package:PiliPlus/models_new/pgc/pgc_info_model/user_status.dart';
+import 'package:PiliUltra/models_new/pgc/pgc_info_model/area.dart';
+import 'package:PiliUltra/models_new/pgc/pgc_info_model/brief.dart';
+import 'package:PiliUltra/models_new/pgc/pgc_info_model/cooperator.dart';
+import 'package:PiliUltra/models_new/pgc/pgc_info_model/episode.dart';
+import 'package:PiliUltra/models_new/pgc/pgc_info_model/new_ep.dart';
+import 'package:PiliUltra/models_new/pgc/pgc_info_model/publish.dart';
+import 'package:PiliUltra/models_new/pgc/pgc_info_model/rating.dart';
+import 'package:PiliUltra/models_new/pgc/pgc_info_model/section.dart';
+import 'package:PiliUltra/models_new/pgc/pgc_info_model/stat.dart';
+import 'package:PiliUltra/models_new/pgc/pgc_info_model/up_info.dart';
+import 'package:PiliUltra/models_new/pgc/pgc_info_model/user_status.dart';
 
 class PgcInfoModel {
   String? actors;

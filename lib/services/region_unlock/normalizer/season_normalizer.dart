@@ -1,7 +1,7 @@
-import 'package:PiliPlus/models/region_unlock/region_area.dart';
+import 'package:PiliUltra/models/region_unlock/region_area.dart';
 
 /// Season响应标准化
-/// 将代理服务器返回的season JSON转换为PiliPlus PgcInfoModel可消费格式
+/// 将代理服务器返回的season JSON转换为PiliUltra PgcInfoModel可消费格式
 /// 处理泰区Episode字段补全和rights修正
 abstract final class SeasonNormalizer {
   /// 标准化season响应

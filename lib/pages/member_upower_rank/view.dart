@@ -1,15 +1,15 @@
-import 'package:PiliPlus/common/widgets/flutter/list_tile.dart';
-import 'package:PiliPlus/common/widgets/flutter/refresh_indicator.dart';
-import 'package:PiliPlus/common/widgets/image/network_img_layer.dart';
-import 'package:PiliPlus/common/widgets/keep_alive_wrapper.dart';
-import 'package:PiliPlus/common/widgets/loading_widget/http_error.dart';
-import 'package:PiliPlus/common/widgets/loading_widget/loading_widget.dart';
-import 'package:PiliPlus/common/widgets/scroll_physics.dart';
-import 'package:PiliPlus/http/loading_state.dart';
-import 'package:PiliPlus/models/common/image_type.dart';
-import 'package:PiliPlus/models_new/upower_rank/rank_info.dart';
-import 'package:PiliPlus/pages/member_upower_rank/controller.dart';
-import 'package:PiliPlus/utils/extension/widget_ext.dart';
+import 'package:PiliUltra/common/widgets/flutter/list_tile.dart';
+import 'package:PiliUltra/common/widgets/flutter/refresh_indicator.dart';
+import 'package:PiliUltra/common/widgets/image/network_img_layer.dart';
+import 'package:PiliUltra/common/widgets/keep_alive_wrapper.dart';
+import 'package:PiliUltra/common/widgets/loading_widget/http_error.dart';
+import 'package:PiliUltra/common/widgets/loading_widget/loading_widget.dart';
+import 'package:PiliUltra/common/widgets/scroll_physics.dart';
+import 'package:PiliUltra/http/loading_state.dart';
+import 'package:PiliUltra/models/common/image_type.dart';
+import 'package:PiliUltra/models_new/upower_rank/rank_info.dart';
+import 'package:PiliUltra/pages/member_upower_rank/controller.dart';
+import 'package:PiliUltra/utils/extension/widget_ext.dart';
 import 'package:flutter/material.dart' hide ListTile;
 import 'package:get/get.dart';
 

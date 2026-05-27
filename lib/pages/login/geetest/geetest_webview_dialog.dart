@@ -1,11 +1,11 @@
 import 'dart:convert' show jsonDecode, jsonEncode;
 import 'dart:io' show Platform, Directory, File;
 
-import 'package:PiliPlus/http/browser_ua.dart';
-import 'package:PiliPlus/http/init.dart';
-import 'package:PiliPlus/http/loading_state.dart';
-import 'package:PiliPlus/main.dart';
-import 'package:PiliPlus/utils/accounts/account.dart';
+import 'package:PiliUltra/http/browser_ua.dart';
+import 'package:PiliUltra/http/init.dart';
+import 'package:PiliUltra/http/loading_state.dart';
+import 'package:PiliUltra/main.dart';
+import 'package:PiliUltra/utils/accounts/account.dart';
 import 'package:desktop_webview_window/desktop_webview_window.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';

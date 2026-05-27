@@ -1,20 +1,20 @@
 import 'dart:async';
 
-import 'package:PiliPlus/models/region_unlock/region_area.dart';
-import 'package:PiliPlus/models/region_unlock/region_playurl_context.dart';
-import 'package:PiliPlus/models/region_unlock/region_season_context.dart';
-import 'package:PiliPlus/models/region_unlock/region_server.dart';
-import 'package:PiliPlus/models/region_unlock/region_unlock_result.dart';
-import 'package:PiliPlus/models/video/play/url.dart';
-import 'package:PiliPlus/services/region_unlock/area_cache.dart';
-import 'package:PiliPlus/services/region_unlock/normalizer/playurl_normalizer.dart';
-import 'package:PiliPlus/services/region_unlock/normalizer/season_normalizer.dart';
-import 'package:PiliPlus/services/region_unlock/normalizer/thailand_playurl_normalizer.dart';
-import 'package:PiliPlus/services/region_unlock/region_unlock_api.dart';
-import 'package:PiliPlus/services/region_unlock/region_unlock_config.dart';
-import 'package:PiliPlus/services/region_unlock/sensitive_mask.dart';
-import 'package:PiliPlus/services/region_unlock/server_manager.dart';
-import 'package:PiliPlus/models_new/pgc/pgc_info_model/result.dart';
+import 'package:PiliUltra/models/region_unlock/region_area.dart';
+import 'package:PiliUltra/models/region_unlock/region_playurl_context.dart';
+import 'package:PiliUltra/models/region_unlock/region_season_context.dart';
+import 'package:PiliUltra/models/region_unlock/region_server.dart';
+import 'package:PiliUltra/models/region_unlock/region_unlock_result.dart';
+import 'package:PiliUltra/models/video/play/url.dart';
+import 'package:PiliUltra/services/region_unlock/area_cache.dart';
+import 'package:PiliUltra/services/region_unlock/normalizer/playurl_normalizer.dart';
+import 'package:PiliUltra/services/region_unlock/normalizer/season_normalizer.dart';
+import 'package:PiliUltra/services/region_unlock/normalizer/thailand_playurl_normalizer.dart';
+import 'package:PiliUltra/services/region_unlock/region_unlock_api.dart';
+import 'package:PiliUltra/services/region_unlock/region_unlock_config.dart';
+import 'package:PiliUltra/services/region_unlock/sensitive_mask.dart';
+import 'package:PiliUltra/services/region_unlock/server_manager.dart';
+import 'package:PiliUltra/models_new/pgc/pgc_info_model/result.dart';
 import 'package:dio/dio.dart';
 
 /// 区域解锁核心服务（门面）

@@ -1,10 +1,10 @@
-import 'package:PiliPlus/common/widgets/loading_widget/loading_widget.dart';
-import 'package:PiliPlus/grpc/bilibili/app/im/v1.pb.dart'
+import 'package:PiliUltra/common/widgets/loading_widget/loading_widget.dart';
+import 'package:PiliUltra/grpc/bilibili/app/im/v1.pb.dart'
     show IMSettingType, Setting;
-import 'package:PiliPlus/http/loading_state.dart';
-import 'package:PiliPlus/pages/whisper_block/view.dart';
-import 'package:PiliPlus/pages/whisper_settings/controller.dart';
-import 'package:PiliPlus/pages/whisper_settings/widgets/item.dart';
+import 'package:PiliUltra/http/loading_state.dart';
+import 'package:PiliUltra/pages/whisper_block/view.dart';
+import 'package:PiliUltra/pages/whisper_settings/controller.dart';
+import 'package:PiliUltra/pages/whisper_settings/widgets/item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:get/get.dart';

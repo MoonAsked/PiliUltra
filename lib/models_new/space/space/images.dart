@@ -1,4 +1,4 @@
-import 'package:PiliPlus/models_new/space/space/collection_top_simple.dart';
+import 'package:PiliUltra/models_new/space/space/collection_top_simple.dart';
 
 class SpaceImages {
   String? imgUrl;

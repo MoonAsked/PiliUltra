@@ -1,7 +1,7 @@
 import 'dart:convert' show JsonEncoder, base64;
 import 'dart:math' show Random;
 
-import 'package:PiliPlus/common/constants.dart';
+import 'package:PiliUltra/common/constants.dart';
 import 'package:catcher_2/catcher_2.dart';
 import 'package:flutter/services.dart'
     show Clipboard, ClipboardData, MethodChannel;

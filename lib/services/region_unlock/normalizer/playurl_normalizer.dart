@@ -1,4 +1,4 @@
-import 'package:PiliPlus/models/region_unlock/region_unlock_result.dart';
+import 'package:PiliUltra/models/region_unlock/region_unlock_result.dart';
 
 /// 普通区域PlayURL响应标准化
 /// 处理非泰区代理服务器返回的playurl响应

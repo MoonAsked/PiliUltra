@@ -1,5 +1,5 @@
-import 'package:PiliPlus/models/region_unlock/region_area.dart';
-import 'package:PiliPlus/services/region_unlock/region_unlock_config.dart';
+import 'package:PiliUltra/models/region_unlock/region_area.dart';
+import 'package:PiliUltra/services/region_unlock/region_unlock_config.dart';
 import 'package:flutter/foundation.dart';
 
 /// 日志脱敏

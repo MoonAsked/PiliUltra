@@ -1,41 +1,41 @@
 /*
- * This file is part of PiliPlus
+ * This file is part of PiliUltra
  *
- * PiliPlus is free software: you can redistribute it and/or modify
+ * PiliUltra is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * PiliPlus is distributed in the hope that it will be useful,
+ * PiliUltra is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with PiliPlus.  If not, see <https://www.gnu.org/licenses/>.
+ * along with PiliUltra.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 import 'dart:io' show File, Platform;
 
-import 'package:PiliPlus/common/widgets/colored_box_transition.dart';
-import 'package:PiliPlus/common/widgets/flutter/page/page_view.dart';
-import 'package:PiliPlus/common/widgets/gesture/image_horizontal_drag_gesture_recognizer.dart';
-import 'package:PiliPlus/common/widgets/image_viewer/image.dart';
-import 'package:PiliPlus/common/widgets/image_viewer/loading_indicator.dart';
-import 'package:PiliPlus/common/widgets/image_viewer/viewer.dart';
-import 'package:PiliPlus/common/widgets/scroll_physics.dart';
-import 'package:PiliPlus/main.dart' show tmpPadding;
-import 'package:PiliPlus/models/common/image_preview_type.dart';
-import 'package:PiliPlus/plugin/pl_player/utils/fullscreen.dart';
-import 'package:PiliPlus/utils/device_utils.dart';
-import 'package:PiliPlus/utils/extension/num_ext.dart';
-import 'package:PiliPlus/utils/extension/string_ext.dart';
-import 'package:PiliPlus/utils/image_utils.dart';
-import 'package:PiliPlus/utils/max_screen_size.dart';
-import 'package:PiliPlus/utils/page_utils.dart';
-import 'package:PiliPlus/utils/platform_utils.dart';
-import 'package:PiliPlus/utils/storage_pref.dart';
-import 'package:PiliPlus/utils/utils.dart';
+import 'package:PiliUltra/common/widgets/colored_box_transition.dart';
+import 'package:PiliUltra/common/widgets/flutter/page/page_view.dart';
+import 'package:PiliUltra/common/widgets/gesture/image_horizontal_drag_gesture_recognizer.dart';
+import 'package:PiliUltra/common/widgets/image_viewer/image.dart';
+import 'package:PiliUltra/common/widgets/image_viewer/loading_indicator.dart';
+import 'package:PiliUltra/common/widgets/image_viewer/viewer.dart';
+import 'package:PiliUltra/common/widgets/scroll_physics.dart';
+import 'package:PiliUltra/main.dart' show tmpPadding;
+import 'package:PiliUltra/models/common/image_preview_type.dart';
+import 'package:PiliUltra/plugin/pl_player/utils/fullscreen.dart';
+import 'package:PiliUltra/utils/device_utils.dart';
+import 'package:PiliUltra/utils/extension/num_ext.dart';
+import 'package:PiliUltra/utils/extension/string_ext.dart';
+import 'package:PiliUltra/utils/image_utils.dart';
+import 'package:PiliUltra/utils/max_screen_size.dart';
+import 'package:PiliUltra/utils/page_utils.dart';
+import 'package:PiliUltra/utils/platform_utils.dart';
+import 'package:PiliUltra/utils/storage_pref.dart';
+import 'package:PiliUltra/utils/utils.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_debounce/easy_throttle.dart';
 import 'package:flutter/gestures.dart';

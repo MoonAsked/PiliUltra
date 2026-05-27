@@ -1,9 +1,9 @@
 import 'dart:math';
 
-import 'package:PiliPlus/common/widgets/loading_widget/loading_widget.dart';
-import 'package:PiliPlus/http/loading_state.dart';
-import 'package:PiliPlus/models_new/space_setting/privacy.dart';
-import 'package:PiliPlus/pages/space_setting/controller.dart';
+import 'package:PiliUltra/common/widgets/loading_widget/loading_widget.dart';
+import 'package:PiliUltra/http/loading_state.dart';
+import 'package:PiliUltra/models_new/space_setting/privacy.dart';
+import 'package:PiliUltra/pages/space_setting/controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

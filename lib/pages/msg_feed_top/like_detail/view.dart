@@ -1,15 +1,15 @@
-import 'package:PiliPlus/common/skeleton/msg_feed_top.dart';
-import 'package:PiliPlus/common/widgets/flutter/refresh_indicator.dart';
-import 'package:PiliPlus/common/widgets/image/network_img_layer.dart';
-import 'package:PiliPlus/common/widgets/loading_widget/http_error.dart';
-import 'package:PiliPlus/http/loading_state.dart';
-import 'package:PiliPlus/models/common/image_type.dart';
-import 'package:PiliPlus/models_new/msg/msg_like_detail/card.dart';
-import 'package:PiliPlus/models_new/msg/msg_like_detail/item.dart';
-import 'package:PiliPlus/pages/msg_feed_top/like_detail/controller.dart';
-import 'package:PiliPlus/utils/app_scheme.dart';
-import 'package:PiliPlus/utils/date_utils.dart';
-import 'package:PiliPlus/utils/utils.dart';
+import 'package:PiliUltra/common/skeleton/msg_feed_top.dart';
+import 'package:PiliUltra/common/widgets/flutter/refresh_indicator.dart';
+import 'package:PiliUltra/common/widgets/image/network_img_layer.dart';
+import 'package:PiliUltra/common/widgets/loading_widget/http_error.dart';
+import 'package:PiliUltra/http/loading_state.dart';
+import 'package:PiliUltra/models/common/image_type.dart';
+import 'package:PiliUltra/models_new/msg/msg_like_detail/card.dart';
+import 'package:PiliUltra/models_new/msg/msg_like_detail/item.dart';
+import 'package:PiliUltra/pages/msg_feed_top/like_detail/controller.dart';
+import 'package:PiliUltra/utils/app_scheme.dart';
+import 'package:PiliUltra/utils/date_utils.dart';
+import 'package:PiliUltra/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

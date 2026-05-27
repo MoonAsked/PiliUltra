@@ -1,14 +1,14 @@
 import 'dart:async';
 
-import 'package:PiliPlus/common/widgets/image/network_img_layer.dart';
-import 'package:PiliPlus/models/common/image_type.dart';
-import 'package:PiliPlus/models_new/live/live_superchat/item.dart';
-import 'package:PiliPlus/pages/member/widget/medal_widget.dart';
-import 'package:PiliPlus/utils/color_utils.dart';
-import 'package:PiliPlus/utils/image_utils.dart';
-import 'package:PiliPlus/utils/page_utils.dart';
-import 'package:PiliPlus/utils/platform_utils.dart';
-import 'package:PiliPlus/utils/utils.dart';
+import 'package:PiliUltra/common/widgets/image/network_img_layer.dart';
+import 'package:PiliUltra/models/common/image_type.dart';
+import 'package:PiliUltra/models_new/live/live_superchat/item.dart';
+import 'package:PiliUltra/pages/member/widget/medal_widget.dart';
+import 'package:PiliUltra/utils/color_utils.dart';
+import 'package:PiliUltra/utils/image_utils.dart';
+import 'package:PiliUltra/utils/page_utils.dart';
+import 'package:PiliUltra/utils/platform_utils.dart';
+import 'package:PiliUltra/utils/utils.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/foundation.dart' show kDebugMode;
 import 'package:flutter/material.dart';

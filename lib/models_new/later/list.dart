@@ -1,9 +1,9 @@
-import 'package:PiliPlus/models/model_owner.dart';
-import 'package:PiliPlus/models_new/later/bangumi.dart';
-import 'package:PiliPlus/models_new/later/rights.dart';
-import 'package:PiliPlus/models_new/later/stat.dart';
-import 'package:PiliPlus/models_new/video/video_detail/dimension.dart';
-import 'package:PiliPlus/pages/common/multi_select/base.dart';
+import 'package:PiliUltra/models/model_owner.dart';
+import 'package:PiliUltra/models_new/later/bangumi.dart';
+import 'package:PiliUltra/models_new/later/rights.dart';
+import 'package:PiliUltra/models_new/later/stat.dart';
+import 'package:PiliUltra/models_new/video/video_detail/dimension.dart';
+import 'package:PiliUltra/pages/common/multi_select/base.dart';
 
 class LaterItemModel with MultiSelectData {
   int? aid;

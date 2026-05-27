@@ -1,4 +1,4 @@
-import 'package:PiliPlus/utils/parse_int.dart';
+import 'package:PiliUltra/utils/parse_int.dart';
 
 class FollowUpModel {
   FollowUpModel({

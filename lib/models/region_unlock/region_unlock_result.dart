@@ -1,4 +1,4 @@
-import 'package:PiliPlus/models/region_unlock/region_area.dart';
+import 'package:PiliUltra/models/region_unlock/region_area.dart';
 
 /// 区域解锁统一结果
 sealed class RegionUnlockResult<T> {

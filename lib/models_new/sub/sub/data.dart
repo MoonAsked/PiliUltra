@@ -1,4 +1,4 @@
-import 'package:PiliPlus/models_new/sub/sub/list.dart';
+import 'package:PiliUltra/models_new/sub/sub/list.dart';
 
 class SubData {
   List<SubItemModel>? list;

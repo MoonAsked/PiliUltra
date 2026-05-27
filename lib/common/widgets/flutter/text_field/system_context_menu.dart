@@ -7,7 +7,7 @@
 /// @docImport 'package:flutter/material.dart';
 library;
 
-import 'package:PiliPlus/common/widgets/flutter/text_field/editable_text.dart';
+import 'package:PiliUltra/common/widgets/flutter/text_field/editable_text.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart'
     hide EditableText, EditableTextState, SystemContextMenu;

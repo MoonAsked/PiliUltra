@@ -1,9 +1,9 @@
-import 'package:PiliPlus/models/region_unlock/region_area.dart';
-import 'package:PiliPlus/models/region_unlock/region_server.dart';
-import 'package:PiliPlus/services/region_unlock/area_cache.dart';
-import 'package:PiliPlus/services/region_unlock/region_unlock_config.dart';
-import 'package:PiliPlus/services/region_unlock/sensitive_mask.dart';
-import 'package:PiliPlus/services/region_unlock/server_manager.dart';
+import 'package:PiliUltra/models/region_unlock/region_area.dart';
+import 'package:PiliUltra/models/region_unlock/region_server.dart';
+import 'package:PiliUltra/services/region_unlock/area_cache.dart';
+import 'package:PiliUltra/services/region_unlock/region_unlock_config.dart';
+import 'package:PiliUltra/services/region_unlock/sensitive_mask.dart';
+import 'package:PiliUltra/services/region_unlock/server_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 

@@ -1,10 +1,10 @@
-import 'package:PiliPlus/common/widgets/dialog/dialog.dart';
-import 'package:PiliPlus/http/dynamics.dart';
-import 'package:PiliPlus/http/loading_state.dart';
-import 'package:PiliPlus/http/msg.dart';
-import 'package:PiliPlus/models/dynamics/vote_model.dart';
-import 'package:PiliPlus/utils/accounts.dart';
-import 'package:PiliPlus/utils/utils.dart';
+import 'package:PiliUltra/common/widgets/dialog/dialog.dart';
+import 'package:PiliUltra/http/dynamics.dart';
+import 'package:PiliUltra/http/loading_state.dart';
+import 'package:PiliUltra/http/msg.dart';
+import 'package:PiliUltra/models/dynamics/vote_model.dart';
+import 'package:PiliUltra/utils/accounts.dart';
+import 'package:PiliUltra/utils/utils.dart';
 import 'package:flutter/widgets.dart' show Text;
 import 'package:get/get.dart';
 

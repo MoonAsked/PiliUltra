@@ -1,7 +1,7 @@
-import 'package:PiliPlus/models/model_avatar.dart';
-import 'package:PiliPlus/models_new/reply/level_info.dart';
-import 'package:PiliPlus/models_new/reply/nameplate.dart';
-import 'package:PiliPlus/models_new/reply/senior.dart';
+import 'package:PiliUltra/models/model_avatar.dart';
+import 'package:PiliUltra/models_new/reply/level_info.dart';
+import 'package:PiliUltra/models_new/reply/nameplate.dart';
+import 'package:PiliUltra/models_new/reply/senior.dart';
 
 class ReplyMember {
   String? mid;

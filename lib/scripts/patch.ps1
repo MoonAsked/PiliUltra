@@ -10,7 +10,7 @@ $BottomSheetAndroidPatch = "lib/scripts/bottom_sheet_android.patch"
 
 # https://github.com/bggRGjQaUbCoE/PiliPlus/issues/1906
 $BottomSheetIOSFlutterPatch = "lib/scripts/bottom_sheet_ios_flutter.patch"
-$BottomSheetIOSPiliPlusPatch = "lib/scripts/bottom_sheet_ios_piliplus.patch"
+$BottomSheetIOSPiliUltraPatch = "lib/scripts/bottom_sheet_ios_piliultra.patch"
 
 # https://github.com/bggRGjQaUbCoE/PiliPlus/issues/1662
 $ScrollViewPatch = "lib/scripts/scroll_view.patch"
@@ -35,9 +35,9 @@ $ModalBarrierPatch = "lib/scripts/modal_barrier.patch"
 $MouseCursorPatch = "lib/scripts/mouse_cursor.patch"
 
 if ($platform.ToLower() -eq "ios") {
-    git apply $BottomSheetIOSPiliPlusPatch
+    git apply $BottomSheetIOSPiliUltraPatch
     if ($LASTEXITCODE -eq 0) {
-        Write-Host "$BottomSheetIOSPiliPlusPatch applied"
+        Write-Host "$BottomSheetIOSPiliUltraPatch applied"
     }
 }
 

@@ -1,9 +1,9 @@
-import 'package:PiliPlus/models_new/follow/data.dart';
-import 'package:PiliPlus/models_new/follow/list.dart';
-import 'package:PiliPlus/pages/common/search/common_search_page.dart';
-import 'package:PiliPlus/pages/follow/widgets/follow_item.dart';
-import 'package:PiliPlus/pages/follow_search/controller.dart';
-import 'package:PiliPlus/utils/utils.dart';
+import 'package:PiliUltra/models_new/follow/data.dart';
+import 'package:PiliUltra/models_new/follow/list.dart';
+import 'package:PiliUltra/pages/common/search/common_search_page.dart';
+import 'package:PiliUltra/pages/follow/widgets/follow_item.dart';
+import 'package:PiliUltra/pages/follow_search/controller.dart';
+import 'package:PiliUltra/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:io' show Platform;
 
-import 'package:PiliPlus/utils/device_utils.dart';
+import 'package:PiliUltra/utils/device_utils.dart';
 import 'package:flutter/services.dart'
     show
         SystemChrome,
@@ -99,13 +99,13 @@ Future<void> setEnabledSystemUIMode(
     return SystemChrome.setEnabledSystemUIMode(mode, overlays: overlays);
   }
   if (mode != SystemUiMode.manual) {
-    return const MethodChannel('PiliPlus').invokeMethod(
+    return const MethodChannel('PiliUltra').invokeMethod(
       'SystemChrome.setEnabledSystemUIMode',
       {'arguments': mode.toString()},
     );
   } else {
     assert(mode == SystemUiMode.manual && overlays != null);
-    return const MethodChannel('PiliPlus').invokeMethod(
+    return const MethodChannel('PiliUltra').invokeMethod(
       'SystemChrome.setEnabledSystemUIOverlays',
       {'arguments': _stringify(overlays!)},
     );

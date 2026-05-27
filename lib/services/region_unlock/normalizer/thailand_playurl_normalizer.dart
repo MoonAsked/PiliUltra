@@ -1,4 +1,4 @@
-import 'package:PiliPlus/models/region_unlock/region_unlock_result.dart';
+import 'package:PiliUltra/models/region_unlock/region_unlock_result.dart';
 
 /// 泰区PlayURL响应标准化
 /// 将bstar格式的stream_list+dash_audio转换为标准DASH格式

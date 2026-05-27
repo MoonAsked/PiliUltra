@@ -1,15 +1,15 @@
 import 'dart:convert';
 
-import 'package:PiliPlus/common/constants.dart';
-import 'package:PiliPlus/models/region_unlock/region_area.dart';
-import 'package:PiliPlus/models/region_unlock/region_playurl_context.dart';
-import 'package:PiliPlus/models/region_unlock/region_season_context.dart';
-import 'package:PiliPlus/services/region_unlock/region_unlock_config.dart';
-import 'package:PiliPlus/utils/app_sign.dart';
+import 'package:PiliUltra/common/constants.dart';
+import 'package:PiliUltra/models/region_unlock/region_area.dart';
+import 'package:PiliUltra/models/region_unlock/region_playurl_context.dart';
+import 'package:PiliUltra/models/region_unlock/region_season_context.dart';
+import 'package:PiliUltra/services/region_unlock/region_unlock_config.dart';
+import 'package:PiliUltra/utils/app_sign.dart';
 import 'package:dio/dio.dart';
 
 /// 代理服务器API请求封装
-/// 使用独立Dio实例，不经过PiliPlus的AccountManager拦截器
+/// 使用独立Dio实例，不经过PiliUltra的AccountManager拦截器
 abstract final class RegionUnlockApi {
   /// 请求代理服务器获取playurl
   static Future<Map<String, dynamic>> requestPlayUrl({
@@ -39,7 +39,7 @@ abstract final class RegionUnlockApi {
       params['build'] = area.build;
     }
 
-    // 3. App签名（复用PiliPlus现有AppSign，使用对应区域的appkey/appsec）
+    // 3. App签名（复用PiliUltra现有AppSign，使用对应区域的appkey/appsec）
     AppSign.appSign(params, appkey: area.appKey, appsec: area.appSec);
 
     // 4. 构建完整URL

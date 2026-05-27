@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.piliplus"
+    namespace = "com.example.piliultra"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -18,7 +18,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.piliplus"
+        applicationId = "com.example.piliultra"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
@@ -54,7 +54,7 @@ android {
                 resValue(
                     type = "string",
                     name = "app_name",
-                    value = "PiliPlus dev",
+                    value = "PiliUltra dev",
                 )
             }
 //            proguardFiles(

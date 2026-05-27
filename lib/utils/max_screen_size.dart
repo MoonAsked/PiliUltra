@@ -1,6 +1,6 @@
 import 'dart:io' show Platform;
 
-import 'package:PiliPlus/utils/utils.dart';
+import 'package:PiliUltra/utils/utils.dart';
 import 'package:flutter/services.dart' show MethodChannel;
 
 abstract final class MaxScreenSize {

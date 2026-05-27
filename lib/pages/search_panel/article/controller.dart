@@ -1,10 +1,10 @@
 import 'dart:math';
 
-import 'package:PiliPlus/models/common/search/article_search_type.dart';
-import 'package:PiliPlus/models/search/result.dart';
-import 'package:PiliPlus/pages/search/widgets/search_text.dart';
-import 'package:PiliPlus/pages/search_panel/controller.dart';
-import 'package:PiliPlus/utils/extension/context_ext.dart';
+import 'package:PiliUltra/models/common/search/article_search_type.dart';
+import 'package:PiliUltra/models/search/result.dart';
+import 'package:PiliUltra/pages/search/widgets/search_text.dart';
+import 'package:PiliUltra/pages/search_panel/controller.dart';
+import 'package:PiliUltra/utils/extension/context_ext.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

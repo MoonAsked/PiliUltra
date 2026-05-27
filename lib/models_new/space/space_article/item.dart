@@ -1,5 +1,5 @@
-import 'package:PiliPlus/models_new/space/space_article/stats.dart';
-import 'package:PiliPlus/utils/extension/iterable_ext.dart';
+import 'package:PiliUltra/models_new/space/space_article/stats.dart';
+import 'package:PiliUltra/utils/extension/iterable_ext.dart';
 
 class SpaceArticleItem {
   String? title;

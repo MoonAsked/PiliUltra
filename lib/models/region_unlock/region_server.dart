@@ -1,4 +1,4 @@
-import 'package:PiliPlus/models/region_unlock/region_area.dart';
+import 'package:PiliUltra/models/region_unlock/region_area.dart';
 
 /// 代理服务器配置模型
 class RegionServer {

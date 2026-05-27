@@ -1,8 +1,8 @@
-import 'package:PiliPlus/common/style.dart';
-import 'package:PiliPlus/common/widgets/image/image_save.dart';
-import 'package:PiliPlus/common/widgets/image/network_img_layer.dart';
-import 'package:PiliPlus/models_new/fav/fav_folder/list.dart';
-import 'package:PiliPlus/utils/bili_utils.dart';
+import 'package:PiliUltra/common/style.dart';
+import 'package:PiliUltra/common/widgets/image/image_save.dart';
+import 'package:PiliUltra/common/widgets/image/network_img_layer.dart';
+import 'package:PiliUltra/models_new/fav/fav_folder/list.dart';
+import 'package:PiliUltra/utils/bili_utils.dart';
 import 'package:flutter/material.dart';
 
 class FavVideoItem extends StatelessWidget {

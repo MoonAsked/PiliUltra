@@ -1,9 +1,9 @@
-import 'package:PiliPlus/models_new/live/live_medal_wall/uinfo_medal.dart';
-import 'package:PiliPlus/models_new/live/live_superchat/user_info.dart';
-import 'package:PiliPlus/utils/global_data.dart';
-import 'package:PiliPlus/utils/parse_int.dart';
-import 'package:PiliPlus/utils/parse_string.dart';
-import 'package:PiliPlus/utils/utils.dart';
+import 'package:PiliUltra/models_new/live/live_medal_wall/uinfo_medal.dart';
+import 'package:PiliUltra/models_new/live/live_superchat/user_info.dart';
+import 'package:PiliUltra/utils/global_data.dart';
+import 'package:PiliUltra/utils/parse_int.dart';
+import 'package:PiliUltra/utils/parse_string.dart';
+import 'package:PiliUltra/utils/utils.dart';
 
 class SuperChatItem {
   int id;

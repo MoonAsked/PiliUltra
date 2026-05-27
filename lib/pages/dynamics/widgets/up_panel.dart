@@ -1,15 +1,15 @@
-import 'package:PiliPlus/common/assets.dart';
-import 'package:PiliPlus/common/widgets/image/network_img_layer.dart';
-import 'package:PiliPlus/models/common/dynamic/up_panel_position.dart';
-import 'package:PiliPlus/models/common/image_type.dart';
-import 'package:PiliPlus/models/dynamics/up.dart';
-import 'package:PiliPlus/pages/dynamics/controller.dart';
-import 'package:PiliPlus/pages/live_follow/view.dart';
-import 'package:PiliPlus/utils/accounts.dart';
-import 'package:PiliPlus/utils/extension/num_ext.dart';
-import 'package:PiliPlus/utils/feed_back.dart';
-import 'package:PiliPlus/utils/page_utils.dart';
-import 'package:PiliPlus/utils/platform_utils.dart';
+import 'package:PiliUltra/common/assets.dart';
+import 'package:PiliUltra/common/widgets/image/network_img_layer.dart';
+import 'package:PiliUltra/models/common/dynamic/up_panel_position.dart';
+import 'package:PiliUltra/models/common/image_type.dart';
+import 'package:PiliUltra/models/dynamics/up.dart';
+import 'package:PiliUltra/pages/dynamics/controller.dart';
+import 'package:PiliUltra/pages/live_follow/view.dart';
+import 'package:PiliUltra/utils/accounts.dart';
+import 'package:PiliUltra/utils/extension/num_ext.dart';
+import 'package:PiliUltra/utils/feed_back.dart';
+import 'package:PiliUltra/utils/page_utils.dart';
+import 'package:PiliUltra/utils/platform_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,8 +1,8 @@
-import 'package:PiliPlus/common/constants.dart';
-import 'package:PiliPlus/models/common/account_type.dart';
-import 'package:PiliPlus/utils/accounts.dart';
-import 'package:PiliPlus/utils/accounts/grpc_headers.dart';
-import 'package:PiliPlus/utils/id_utils.dart';
+import 'package:PiliUltra/common/constants.dart';
+import 'package:PiliUltra/models/common/account_type.dart';
+import 'package:PiliUltra/utils/accounts.dart';
+import 'package:PiliUltra/utils/accounts/grpc_headers.dart';
+import 'package:PiliUltra/utils/id_utils.dart';
 import 'package:cookie_jar/cookie_jar.dart';
 import 'package:hive_ce/hive.dart';
 

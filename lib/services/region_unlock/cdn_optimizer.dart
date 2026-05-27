@@ -1,9 +1,9 @@
-import 'package:PiliPlus/models/video/play/url.dart';
-import 'package:PiliPlus/services/region_unlock/region_unlock_config.dart';
+import 'package:PiliUltra/models/video/play/url.dart';
+import 'package:PiliUltra/services/region_unlock/region_unlock_config.dart';
 
 /// CDN/PCDN优化
 /// 检测并替换代理URL中的不稳定CDN host
-/// 复用PiliPlus现有VideoUtils.getCdnUrl
+/// 复用PiliUltra现有VideoUtils.getCdnUrl
 abstract final class CdnOptimizer {
   /// 不稳定CDN host正则
   static final _unstableCdnRegex = RegExp(
