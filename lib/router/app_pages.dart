@@ -54,6 +54,7 @@ import 'package:PiliPlus/pages/search/view.dart';
 import 'package:PiliPlus/pages/search_result/view.dart';
 import 'package:PiliPlus/pages/search_trending/view.dart';
 import 'package:PiliPlus/pages/setting/extra_setting.dart';
+import 'package:PiliPlus/pages/setting/region_unlock_setting.dart';
 import 'package:PiliPlus/pages/setting/pages/bar_set.dart';
 import 'package:PiliPlus/pages/setting/pages/color_select.dart';
 import 'package:PiliPlus/pages/setting/pages/display_mode.dart';
@@ -128,6 +129,7 @@ class Routes {
     GetPage(name: '/privacySetting', page: () => const PrivacySetting()),
     // 其它设置
     GetPage(name: '/extraSetting', page: () => const ExtraSetting()),
+    GetPage(name: '/regionUnlockSetting', page: () => const RegionUnlockSetting()),
     //
     GetPage(name: '/blackListPage', page: () => const BlackListPage()),
     GetPage(name: '/colorSetting', page: () => const ColorSelectPage()),

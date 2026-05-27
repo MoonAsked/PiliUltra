@@ -8,6 +8,7 @@ import 'package:PiliPlus/pages/setting/extra_setting.dart';
 import 'package:PiliPlus/pages/setting/play_setting.dart';
 import 'package:PiliPlus/pages/setting/privacy_setting.dart';
 import 'package:PiliPlus/pages/setting/recommend_setting.dart';
+import 'package:PiliPlus/pages/setting/region_unlock_setting.dart';
 import 'package:PiliPlus/pages/setting/style_setting.dart';
 import 'package:PiliPlus/pages/setting/video_setting.dart';
 import 'package:PiliPlus/pages/setting/widgets/multi_select_dialog.dart';
@@ -76,6 +77,11 @@ class _SettingPageState extends State<SettingPage> {
       icon: Icon(Icons.extension_outlined),
     ),
     _SettingsModel(
+      type: SettingType.regionUnlockSetting,
+      subtitle: '代理服务器、区域优先级、access_key',
+      icon: Icon(Icons.lock_open_outlined),
+    ),
+    _SettingsModel(
       type: SettingType.webdavSetting,
       icon: Icon(MdiIcons.databaseCogOutline),
     ),
@@ -127,6 +133,9 @@ class _SettingPageState extends State<SettingPage> {
                         showAppBar: false,
                       ),
                       SettingType.extraSetting => const ExtraSetting(
+                        showAppBar: false,
+                      ),
+                      SettingType.regionUnlockSetting => const RegionUnlockSetting(
                         showAppBar: false,
                       ),
                       SettingType.webdavSetting => const WebDavSettingPage(

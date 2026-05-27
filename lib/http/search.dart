@@ -14,6 +14,10 @@ import 'package:PiliPlus/models_new/video/video_detail/dimension.dart';
 import 'package:PiliPlus/utils/extension/iterable_ext.dart';
 import 'package:PiliPlus/utils/request_utils.dart';
 import 'package:PiliPlus/utils/wbi_sign.dart';
+import 'package:PiliPlus/models/region_unlock/region_season_context.dart';
+import 'package:PiliPlus/models/region_unlock/region_unlock_result.dart';
+import 'package:PiliPlus/services/region_unlock/region_unlock_service.dart';
+import 'package:PiliPlus/utils/accounts.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
@@ -223,9 +227,26 @@ abstract final class SearchHttp {
     );
     if (res.data['code'] == 0) {
       return Success(PgcInfoModel.fromJson(res.data['result']));
-    } else {
-      return Error(res.data['message']);
     }
+
+    // Season区域解锁fallback
+    if (RegionUnlockService.isAreaLimitError(res.data)) {
+      try {
+        final context = RegionSeasonContext(
+          seasonId: seasonId is int ? seasonId : int.tryParse(seasonId?.toString() ?? ''),
+          epId: epId is int ? epId : int.tryParse(epId?.toString() ?? ''),
+          accountId: Accounts.main.mid?.toString() ?? '',
+        );
+        final result = await RegionUnlockService.seasonFallback(context);
+        if (result is RegionUnlockSuccess<PgcInfoModel>) {
+          return Success(result.data);
+        }
+      } catch (_) {
+        // fallback异常不崩溃
+      }
+    }
+
+    return Error(res.data['message']);
   }
 
   static Future<LoadingState<PgcInfoModel>> pugvInfo({

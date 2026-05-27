@@ -39,6 +39,9 @@ import 'package:PiliPlus/utils/storage.dart';
 import 'package:PiliPlus/utils/storage_pref.dart';
 import 'package:PiliPlus/utils/utils.dart';
 import 'package:PiliPlus/utils/wbi_sign.dart';
+import 'package:PiliPlus/models/region_unlock/region_playurl_context.dart';
+import 'package:PiliPlus/models/region_unlock/region_unlock_result.dart';
+import 'package:PiliPlus/services/region_unlock/region_unlock_service.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart' show compute;
 import 'package:protobuf/protobuf.dart';
@@ -271,6 +274,28 @@ abstract final class VideoHttp {
           videoType: VideoType.pgc,
         );
       }
+
+      // PGC区域解锁fallback
+      if (videoType == VideoType.pgc &&
+          RegionUnlockService.isAreaLimitError(res.data)) {
+        try {
+          final context = RegionPlayUrlContext(
+            cid: cid,
+            epId: epid,
+            seasonId: seasonId,
+            qn: qn ?? 80,
+            accountId: Accounts.main.mid?.toString() ?? '',
+          );
+          final result =
+              await RegionUnlockService.playUrlFallback(context);
+          if (result is RegionUnlockSuccess<PlayUrlModel>) {
+            return Success(result.data);
+          }
+        } catch (_) {
+          // fallback异常不崩溃，继续返回原始错误
+        }
+      }
+
       return Error(_parseVideoErr(res.data['code'], res.data['message']));
     } catch (e, s) {
       return Error('$e\n\n$s');
